@@ -1,13 +1,16 @@
 # alpine-linux
 alpine-linux
 
-- Change to root privileges 
+#### Change to root privileges 
+```
 doas -s
-
-- Install Docker
-
+```
+#### Install Docker
+```
 apk add docker
-
-- Start Docker on boot
+```
+#### Start Docker on boot
+```
 rc-update add docker default
 service docker start
+```
