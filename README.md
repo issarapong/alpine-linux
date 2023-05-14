@@ -14,3 +14,9 @@ apk add docker
 rc-update add docker default
 service docker start
 ```
+
+#### Example run nginx images
+
+```
+ docker run --name mynginx1 -p 80:80 -d nginx
+```
